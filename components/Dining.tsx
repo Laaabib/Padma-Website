@@ -11,7 +11,7 @@ const diningOutlets = [
     name: 'Rivera Restaurant',
     subtitle: 'Signature Fine Dining',
     description: 'A signature fine-dining restaurant offering premium cuisine with beautiful ambiance and exceptional service for couples, families, and business guests.',
-    image: '/restaurant-rivera.png',
+    image: '/restaurant-rivera.webp',
     features: ['Elegant Interior', 'Signature Dishes', 'Private Dining Option', 'Wine/Mocktail Pairing'],
     icon: <Wine className="w-5 h-5" />,
     revered: true,
@@ -21,7 +21,7 @@ const diningOutlets = [
     name: 'All Day Dining',
     subtitle: 'International Cuisine',
     description: 'A stylish restaurant serving breakfast, lunch, and dinner with both local and international cuisine in a refined atmosphere.',
-    image: '/banquet-hall.png',
+    image: '/banquet-hall.webp',
     features: ['Buffet Display', 'Chef Specialties', 'Opening Hours: 6AM-11PM', 'Seating Capacity: 150'],
     icon: <UtensilsCrossed className="w-5 h-5" />,
     revered: false,
@@ -31,7 +31,7 @@ const diningOutlets = [
     name: 'Cafe Lounge',
     subtitle: 'Relaxation & Social Gathering',
     description: 'A relaxing lounge space for coffee, desserts, tea, light snacks, and evening social gatherings with a luxury modern atmosphere.',
-    image: '/lobby-area.png',
+    image: '/lobby-area.webp',
     features: ['Artisan Coffee', 'Handcrafted Desserts', 'Soft Seating', 'Live Music (Evenings)'],
     icon: <Coffee className="w-5 h-5" />,
     revered: false,
@@ -39,10 +39,10 @@ const diningOutlets = [
 ];
 
 const chefMenu = [
-  { name: 'Grilled River Fish', desc: 'Fresh local catch with citrus glaze', price: '৳2,500', img: '/water-body.png' },
-  { name: 'Premium Steak', desc: 'Aged beef tenderloin, truffle mash', price: '৳4,500', img: '/water-body.png' },
-  { name: 'Signature Dessert', desc: 'Dark chocolate lava with berries', price: '৳1,200', img: '/water-body.png' },
-  { name: 'Mocktail Collection', desc: 'Refreshing tropical blends', price: '৳800', img: '/water-body.png' },
+  { name: 'Grilled River Fish', desc: 'Fresh local catch with citrus glaze', price: '৳2,500', img: '/water-body.webp' },
+  { name: 'Premium Steak', desc: 'Aged beef tenderloin, truffle mash', price: '৳4,500', img: '/water-body.webp' },
+  { name: 'Signature Dessert', desc: 'Dark chocolate lava with berries', price: '৳1,200', img: '/water-body.webp' },
+  { name: 'Mocktail Collection', desc: 'Refreshing tropical blends', price: '৳800', img: '/water-body.webp' },
 ];
 
 export default function Dining() {

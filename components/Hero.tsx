@@ -125,7 +125,7 @@ export default function Hero() {
       {/* Background Image / Right Side */}
       <div className="lg:col-span-7 relative h-[50vh] lg:h-full bg-[#E5E5E5]">
         <ImageFallback
-          src="/homepage-2.png"
+          src="/homepage-2.webp"
           alt="Padma River View at Sunset"
           fill
           priority

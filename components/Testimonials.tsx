@@ -10,21 +10,21 @@ const testimonials = [
     country: 'United Kingdom',
     rating: 5,
     text: 'Exceptional riverside luxury and unforgettable hospitality. The Padma River view from our suite was simply breathtaking.',
-    image: '/water-body.png'
+    image: '/water-body.webp'
   },
   {
     name: 'David Chen',
     country: 'Singapore',
     rating: 5,
     text: 'The dining experience at Rivera Restaurant was world-class. A perfect blend of local flavors and international standards.',
-    image: '/water-body.png'
+    image: '/water-body.webp'
   },
   {
     name: 'Amina Rahman',
     country: 'Bangladesh',
     rating: 5,
     text: 'A magnificent escape from the city. The spa treatments and the infinity pool overlooking the river made our anniversary special.',
-    image: '/water-body.png'
+    image: '/water-body.webp'
   }
 ];
 
@@ -34,7 +34,7 @@ export default function Testimonials() {
       {/* Parallax background effect with a mask */}
        <div className="absolute inset-0 z-0 opacity-5">
         <ImageFallback
-          src="/water-body.png"
+          src="/water-body.webp"
           alt="Background"
           fill
           className="object-cover"
