@@ -71,7 +71,7 @@ export default function About() {
             <div className="absolute top-0 right-0 w-full sm:w-[80%] h-[80%] z-10">
               <div className="relative w-full h-full shadow-2xl z-10 overflow-hidden rounded-xl">
                 <ImageFallback
-                  src="/Lobby Area 2.png"
+                  src="/lobby-area-2.png"
                   alt="Luxury Hotel Lobby"
                   fill
                   className="object-cover"
@@ -86,7 +86,7 @@ export default function About() {
             <div className="absolute bottom-0 left-0 w-[55%] h-[45%] z-20 bg-[#FAF9F6] p-3 shadow-2xl rounded-xl hidden sm:block">
               <div className="relative w-full h-full rounded-lg overflow-hidden">
                 <ImageFallback
-                  src="/Swimming pool.png"
+                  src="/swimming-pool.png"
                   alt="Hotel Pool Area"
                   fill
                   className="object-cover"

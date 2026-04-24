@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-[#002349]/10 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 font-medium tracking-wide">
           <p>&copy; {new Date().getFullYear()} Padma AWT Rest House. All rights reserved.</p>
-          <p className="mt-2 md:mt-0">Designed elegantly.</p>
+          <p className="mt-2 md:mt-0">Designed by Labib.</p>
         </div>
       </div>
     </footer>

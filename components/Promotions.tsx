@@ -5,32 +5,12 @@ import Link from 'next/link';
 
 const promotions = [
   {
-    id: 'romantic-escape',
-    title: 'Romantic Escape Package',
-    includes: ['Premium Suite Riverview', 'Candlelight dinner for two', 'Couples spa treatment', 'Breakfast in room'],
-    price: 'From ৳18,500/night',
-    cta: 'Book Romantic Stay',
-  },
-  {
-    id: 'family-weekend',
-    title: 'Family Weekend Offer',
-    includes: ['Family Connecting room', 'Unlimited kids zone access', 'Complimentary breakfast', 'Country boat ride'],
-    price: 'From ৳22,000/night',
-    cta: 'Book Family Package',
-  },
-  {
-    id: 'executive-business',
-    title: 'Executive Business Stay',
-    includes: ['Superior Deluxe room', 'Airport pickup & drop', 'Meeting support & WiFi', 'Express laundry service'],
-    price: 'From ৳14,500/night',
-    cta: 'Book Executive Stay',
-  },
-  {
-    id: 'presidential-luxury',
-    title: 'Presidential Luxury Experience',
-    includes: ['Presidential Suite', 'Private dining set menu', 'Personal butler service', 'Exclusive VIP river cruise'],
-    price: 'From ৳45,000/night',
-    cta: 'Reserve VIP Experience',
+    id: 'full-board-package',
+    title: 'Full Board Package',
+    includes: ['Breakfast, Lunch, and Dinner', 'Premium Accommodation', 'Access to all resort amenities', 'Complimentary WiFi'],
+    price: '9,999 BDT/night',
+    cta: 'Book Now',
+    tag: 'Up to 40% Off',
     featured: true,
   }
 ];
@@ -56,7 +36,7 @@ export default function Promotions() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="max-w-3xl mx-auto">
           {promotions.map((promo, index) => (
             <motion.div
               key={promo.id}
@@ -67,9 +47,11 @@ export default function Promotions() {
               className={`relative bg-transparent border ${promo.featured ? 'border-[#C5A059] bg-[#C5A059]/5' : 'border-white/20'} p-8 md:p-10 flex flex-col justify-between group hover:border-[#C5A059]/70 transition-colors duration-500`}
             >
               {/* Ribbon */}
-              <div className="absolute top-0 right-0 bg-[#C5A059] text-[#002349] text-[10px] font-bold uppercase tracking-widest py-1 px-3 transform translate-x-2 -translate-y-2 shadow-lg">
-                Save 20%
-              </div>
+              {promo.tag && (
+                <div className="absolute top-0 right-0 bg-[#C5A059] text-[#002349] text-[10px] font-bold uppercase tracking-widest py-1 px-3 transform translate-x-2 -translate-y-2 shadow-lg w-auto whitespace-nowrap">
+                  {promo.tag}
+                </div>
+              )}
 
               <div>
                 <h3 className="font-serif text-2xl md:text-3xl text-white font-medium mb-6">{promo.title}</h3>
