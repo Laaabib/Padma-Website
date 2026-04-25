@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { Loader2 } from 'lucide-react';
 
-export default function ImageFallback({ className, ...props }: ImageProps) {
+export default function ImageFallback({ className, alt, ...props }: ImageProps) {
   const [isLoading, setLoading] = useState(true);
 
   return (
@@ -17,8 +17,9 @@ export default function ImageFallback({ className, ...props }: ImageProps) {
       )}
       <Image
         {...props}
+        alt={alt || ""}
+        referrerPolicy="no-referrer"
         className={cn(
-            isLoading ? 'scale-105 opacity-0 blur-md' : 'scale-100 opacity-100 blur-0',
             'transition-all duration-700 ease-in-out z-10 w-full h-full',
             props.fill ? "object-cover absolute" : "",
             className
