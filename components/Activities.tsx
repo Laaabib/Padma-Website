@@ -11,42 +11,42 @@ const activities = [
     description: 'Feel the thrill of the Padma River with a high-speed boat ride.',
     duration: '30 Mins / 1 Hour',
     suitability: 'Adults & Teens',
-    image: '/water-body.webp',
+    image: '/water-body.png',
   },
   {
     title: 'Country Boat Ride',
     description: 'A peaceful, traditional wooden boat journey along the serene riverbanks.',
     duration: '1 Hour',
     suitability: 'All Ages',
-    image: '/water-body.webp',
+    image: '/water-body.png',
   },
   {
     title: 'Golf Cart Riverside Tour',
     description: 'Explore the extensive resort grounds and scenic riverside comfortably.',
     duration: '45 Mins',
     suitability: 'All Ages',
-    image: '/water-body.webp',
+    image: '/water-body.png',
   },
   {
     title: 'Quad Bike Adventure',
     description: 'Exciting off-road trails designed for adrenaline seekers.',
     duration: '30 Mins',
     suitability: 'Adults Only',
-    image: '/water-body.webp',
+    image: '/water-body.png',
   },
   {
     title: 'Water Body Boat Ride',
     description: 'Gentle boating within our internal majestic water bodies.',
     duration: '30 Mins',
     suitability: 'Families',
-    image: '/water-body.webp',
+    image: '/water-body.png',
   },
   {
     title: 'Kids Fun Zone',
     description: 'A safe, engaging playground with supervised activities for children.',
     duration: 'Unlimited',
     suitability: 'Kids (3-12)',
-    image: '/water-body.webp',
+    image: '/water-body.png',
   }
 ];
 

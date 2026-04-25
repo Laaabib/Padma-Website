@@ -18,10 +18,10 @@ export default function ImageFallback({ className, alt, ...props }: ImageProps) 
       <Image
         {...props}
         alt={alt || ""}
-        referrerPolicy="no-referrer"
         className={cn(
-            'transition-all duration-700 ease-in-out z-10 w-full h-full',
-            props.fill ? "object-cover absolute" : "",
+            'transition-all duration-700 ease-in-out z-10 w-full h-full object-cover',
+            isLoading ? 'scale-105 opacity-0 blur-md' : 'scale-100 opacity-100 blur-0',
+            props.fill ? "absolute" : "",
             className
         )}
         onLoad={() => setLoading(false)}
