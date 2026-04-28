@@ -80,7 +80,7 @@ export default function Hero() {
           className="mb-6 flex items-center gap-3"
         >
           <div className="h-[1px] w-12 bg-[#C5A059]"></div>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-[#C5A059] font-sans font-bold">Est. 2024 • Riverside Luxury</span>
+          <span className="text-[10px] uppercase tracking-[0.3em] text-[#C5A059] font-sans font-bold">Est. 2025 December • Riverside Luxury</span>
         </motion.div>
         
         <motion.h1
@@ -125,7 +125,7 @@ export default function Hero() {
       {/* Background Image / Right Side */}
       <div className="lg:col-span-7 relative h-[50vh] lg:h-full bg-[#E5E5E5]">
         <ImageFallback
-          src="/homepage-2.png"
+          src="/images/homepage-2.png"
           alt="Padma River View at Sunset"
           fill
           priority

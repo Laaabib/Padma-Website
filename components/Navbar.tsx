@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, Phone } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import ImageFallback from '@/components/ImageFallback';
 import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
@@ -61,13 +62,12 @@ export default function Navbar() {
     >
       <div className="w-full flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center group">
-          <ImageFallback 
-            src="/logo.png" 
+        <Link href="/" className="flex items-center group relative h-12 w-48">
+          <Image 
+            src="/images/logo.png" 
             alt="Padma AWT Rest House" 
-            width={200} 
-            height={60} 
-            className="h-12 w-auto object-contain"
+            fill
+            className="object-contain"
             priority
           />
         </Link>

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import ImageFallback from '@/components/ImageFallback';
 import { ArrowRight, Facebook, Instagram, Youtube } from 'lucide-react';
 
@@ -12,13 +13,12 @@ export default function Footer() {
           
           {/* Brand */}
           <div className="space-y-6">
-            <Link href="#home" className="inline-block">
-              <ImageFallback 
-                src="/logo.png" 
-                alt="Padma AWT Rest House" 
-                width={200} 
-                height={60} 
-                className="h-16 w-auto object-contain"
+            <Link href="#home" className="inline-block relative h-16 w-56">
+              <Image 
+                src="/images/logo.png" 
+                alt="Padma AWT Rest House"
+                fill
+                className="object-contain object-left"
               />
             </Link>
             <p className="text-gray-500 font-light text-sm leading-relaxed max-w-xs">

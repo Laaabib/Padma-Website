@@ -71,22 +71,22 @@ export default function About() {
             <div className="absolute top-0 right-0 w-full sm:w-[80%] h-[80%] z-10">
               <div className="relative w-full h-full shadow-2xl z-10 overflow-hidden rounded-xl">
                 <ImageFallback
-                  src="/lobby-area-2.png"
+                  src="/images/lobby-area-2.png"
                   alt="Luxury Hotel Lobby"
                   fill
-                  className="object-cover"
+                  className="object-cover object-center"
                   referrerPolicy="no-referrer"
                 />
               </div>
               {/* Decorative Frame - Hidden on small screens to avoid overflow issues */}
-              <div className="absolute -inset-4 border border-[#C5A059] z-0 -translate-x-4 translate-y-4 hidden sm:block rounded-xl"></div>
+              <div className="absolute -inset-2 border-2 border-[#C5A059] z-0 hidden sm:block rounded-xl"></div>
             </div>
             
             {/* Secondary Overlapping Image - Hidden on mobile for cleaner look */}
             <div className="absolute bottom-0 left-0 w-[55%] h-[45%] z-20 bg-[#FAF9F6] p-3 shadow-2xl rounded-xl hidden sm:block">
               <div className="relative w-full h-full rounded-lg overflow-hidden">
                 <ImageFallback
-                  src="/swimming-pool.png"
+                  src="/images/swimming-pool.png"
                   alt="Hotel Pool Area"
                   fill
                   className="object-cover"

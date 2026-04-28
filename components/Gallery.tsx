@@ -6,15 +6,15 @@ import ImageFallback from '@/components/ImageFallback';
 import { X } from 'lucide-react';
 
 const images = [
-  { src: '/premium-suite-riverview.png', category: 'Rooms', rowSpan: 'row-span-2' },
-  { src: '/swimming-pool.png', category: 'Pool', rowSpan: 'row-span-1' },
-  { src: '/restaurant-rivera.png', category: 'Dining', rowSpan: 'row-span-1' },
-  { src: '/lobby-area.png', category: 'Lobby', rowSpan: 'row-span-2' },
-  { src: '/water-body.png', category: 'River View', rowSpan: 'row-span-1' },
-  { src: '/banquet-hall.png', category: 'Banquet Hall', rowSpan: 'row-span-1' },
-  { src: '/presidential-suite-2.png', category: 'Presidential Suite', rowSpan: 'row-span-1' },
-  { src: '/family-connecting.png', category: 'Family Connecting', rowSpan: 'row-span-1' },
-  { src: '/premium-suite.png', category: 'Premium Suite', rowSpan: 'row-span-1' },
+  { src: '/images/premium-suite-riverview.png', category: 'Rooms', rowSpan: 'row-span-2' },
+  { src: '/images/swimming-pool.png', category: 'Pool', rowSpan: 'row-span-1' },
+  { src: '/images/restaurant-rivera.png', category: 'Dining', rowSpan: 'row-span-1' },
+  { src: '/images/lobby-area.png', category: 'Lobby', rowSpan: 'row-span-2' },
+  { src: '/images/water-body.png', category: 'River View', rowSpan: 'row-span-1' },
+  { src: '/images/banquet-hall.png', category: 'Banquet Hall', rowSpan: 'row-span-1' },
+  { src: '/images/presidential-suite-2.png', category: 'Presidential Suite', rowSpan: 'row-span-1' },
+  { src: '/images/family-connecting.png', category: 'Family Connecting', rowSpan: 'row-span-1' },
+  { src: '/images/premium-suite.png', category: 'Premium Suite', rowSpan: 'row-span-1' },
 ];
 
 export default function Gallery() {

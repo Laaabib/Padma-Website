@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'zsymqoztokfvevbrfbwb.supabase.co',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'picsum.photos',
         port: '',
         pathname: '/**', // This allows any path under the hostname
